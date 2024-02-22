@@ -1,0 +1,11 @@
+enum ChatMessageType {
+  TEXT,
+  IMAGE,
+  VIDEO,
+  AUDIO,
+  LOADING,
+  FILE,
+  CONTACT,
+  LOCATION,
+  LIVE_LOCATION,
+}

@@ -1,0 +1,13 @@
+<svg width="24" height="24" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+    <defs>
+        <filter id="spudmycuva">
+            <feColorMatrix in="SourceGraphic" values="0 0 0 0 0.258824 0 0 0 0 0.745098 0 0 0 0 0.396078 0 0 0 1.000000 0"/>
+        </filter>
+    </defs>
+    <g transform="translate(-20 -351)" filter="url(#spudmycuva)" fill="none" fill-rule="evenodd">
+        <path d="M20 351h24v24H20z"/>
+        <path d="M32.5 370a6.5 6.5 0 1 1 0-13 6.5 6.5 0 0 1 0 13zm0-2.6a3.9 3.9 0 1 0 0-7.8 3.9 3.9 0 0 0 0 7.8zm0-1.3a2.6 2.6 0 1 1 0-5.2 2.6 2.6 0 0 1 0 5.2zM42 364.5c.286 0 .529.212.568.495l.53 3.89a.982.982 0 0 1-.973 1.115 1.027 1.027 0 0 1-1.023-1.12l.353-3.882A.548.548 0 0 1 42 364.5z" fill="#000" fill-rule="nonzero" opacity=".3"/>
+        <path d="M41 356v7h3v-4a3 3 0 0 0-3-3zM20.714 356l.323 3.329a.393.393 0 0 0 .783 0l.323-3.329h.714l.323 3.329a.393.393 0 0 0 .783 0l.323-3.329H25v3.395a2.5 2.5 0 0 1-5 0V356h.714z" fill="#000" fill-rule="nonzero"/>
+        <path d="M22.5 363.368c.4 0 .731.314.753.714l.26 4.848A1.015 1.015 0 0 1 22.5 370a1.015 1.015 0 0 1-1.014-1.07l.261-4.848a.754.754 0 0 1 .753-.714z" fill="#000" fill-rule="nonzero" opacity=".3"/>
+    </g>
+</svg>

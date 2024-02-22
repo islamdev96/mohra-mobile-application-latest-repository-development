@@ -1,0 +1,86 @@
+{
+  "project_info": {
+    "project_number": "230280905856",
+    "project_id": "hypnotic-trees-282211",
+    "storage_bucket": "hypnotic-trees-282211.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:230280905856:android:af11e7ed1e5b01243c9265",
+        "android_client_info": {
+          "package_name": "app.mohraapp.com.android"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "230280905856-60mbdu2luua1ki859b78eln0f2n0do0c.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "app.mohraapp.com.android",
+            "certificate_hash": "c88e1fbfe9b943d74ab6a3097cfb8209514a3284"
+          }
+        },
+        {
+          "client_id": "230280905856-dpqaftabh7dkpcfshh9kd38n6guuhhr8.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "app.mohraapp.com.android",
+            "certificate_hash": "707e23800b12c91f14f37945079ea38ba74e2bb2"
+          }
+        },
+        {
+          "client_id": "230280905856-i4jqupldsslh9i289uqij06comqqmm9i.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "app.mohraapp.com.android",
+            "certificate_hash": "606e0c5540b1018180b5f11057561538e55bfaa7"
+          }
+        },
+        {
+          "client_id": "230280905856-qc45onuues6crfushajv81746i2d85nm.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "app.mohraapp.com.android",
+            "certificate_hash": "e48a1a749a23c4e00abe9cee193fd91b4f03279a"
+          }
+        },
+        {
+          "client_id": "230280905856-r5tbrfa8c8p575dqlbr63klmi1evdbp6.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "app.mohraapp.com.android",
+            "certificate_hash": "cb97c40eecc497fae667f4ce16e9d6b8d594c260"
+          }
+        },
+        {
+          "client_id": "230280905856-o0bebs2v5gcd1jb9i2cqde1iqrvlq60g.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCE9ELTJBlu6YektTNx8uEOM4RedB_RvN8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "230280905856-o0bebs2v5gcd1jb9i2cqde1iqrvlq60g.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "230280905856-h1dd85ekkpr63m4pd0ja6rj19uf2ik4i.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.mohra.app.ios"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

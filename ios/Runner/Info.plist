@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CADisableMinimumFrameDurationOnPhone</key>
+	<true/>
+	<key>CFBundleDevelopmentRegion</key>
+	<string>$(DEVELOPMENT_LANGUAGE)</string>
+	<key>CFBundleDisplayName</key>
+	<string>Mohra</string>
+	<key>CFBundleExecutable</key>
+	<string>$(EXECUTABLE_NAME)</string>
+	<key>CFBundleIdentifier</key>
+	<string>$(PRODUCT_BUNDLE_IDENTIFIER)</string>
+	<key>CFBundleInfoDictionaryVersion</key>
+	<string>6.0</string>
+	<key>CFBundleName</key>
+	<string>Mohra</string>
+	<key>CFBundlePackageType</key>
+	<string>APPL</string>
+	<key>CFBundleShortVersionString</key>
+	<string>1.0.37</string>
+	<key>CFBundleSignature</key>
+	<string>????</string>
+	<key>CFBundleURLTypes</key>
+	<array>
+		<dict>
+			<key>CFBundleTypeRole</key>
+			<string>Editor</string>
+			<key>CFBundleURLName</key>
+			<string>firebase_auth</string>
+			<key>CFBundleURLSchemes</key>
+			<array>
+				<string>app-1-230280905856-ios-de1932fe37b121873c9265</string>
+			</array>
+		</dict>
+		<dict>
+			<key>CFBundleTypeRole</key>
+			<string>Editor</string>
+			<key>CFBundleURLName</key>
+			<string>reversed_client_id</string>
+			<key>CFBundleURLSchemes</key>
+			<array>
+				<string>com.googleusercontent.apps.230280905856-t50o4pkf8858j4q9oiai6mnctnhaa39p</string>
+			</array>
+		</dict>
+		<dict>
+			<key>CFBundleTypeRole</key>
+			<string>Editor</string>
+			<key>CFBundleURLName</key>
+			<string></string>
+			<key>CFBundleURLSchemes</key>
+			<array/>
+		</dict>
+	</array>
+	<key>CFBundleVersion</key>
+	<string>38</string>
+	<key>FirebaseAppDelegateProxyEnabled</key>
+	<false/>
+	<key>FirebaseMessagingAutoInitEnabled</key>
+	<false/>
+	<key>FirebaseScreenReportingEnabled</key>
+	<true/>
+	<key>LSApplicationQueriesSchemes</key>
+	<array>
+		<string>spotify</string>
+		<string>googlechromes</string>
+		<string>comgooglemaps</string>
+	</array>
+	<key>keychain-access-groups</key>
+    <array>
+      <string>group.app.mohraapp.com.ios.keychain</string>
+    </array>
+	<key>LSRequiresIPhoneOS</key>
+	<true/>
+    <key>UIWebFormAutomaticAutofill</key>
+    <true/>
+    <key>UITextContentType</key>
+    <array>
+        <string>phoneNumber</string>
+        <string>password</string>
+    </array>
+	<key>NSCameraUsageDescription</key>
+	<string>The Camera is used to capture images and use it in the application as a profile picture</string>
+	<key>NSContactsUsageDescription</key>
+	<string>access to the contact list to add your friend</string>
+	<key>NSHealthShareUsageDescription</key>
+	<string>We have integrated Health App to show you Foot Step count so data will be sync please allow permission so we can sync data accordingly.</string>
+	<key>NSHealthUpdateUsageDescription</key>
+	<string>We have integrated Health App to show you Foot Step count so data will be sync please allow permission so we can sync data accordingly.</string>
+	<key>NSLocationAlwaysAndWhenInUseUsageDescription</key>
+	<string>The location is used so that the user can add the location to order items from the shop in the application</string>
+	<key>NSLocationAlwaysUsageDescription</key>
+	<string>In Religion we need to access location to share Qibla Direction also for Events showing based on Location</string>
+	<key>NSLocationWhenInUseUsageDescription</key>
+	<string>In Religion we need to access location to share Qibla Direction also for Events showing based on Location</string>
+	<key>NSMicrophoneUsageDescription</key>
+	<string>The mic is used to send voice notes and to make calls though the application</string>
+	<key>NSMotionUsageDescription</key>
+	<string>This application tracks your steps</string>
+	<key>NSPhotoLibraryUsageDescription</key>
+	<string>Photo library is used to let the user choose a profile picture and share posts with his/her friends</string>
+	<key>NSVoIPUsageDescription</key>
+    <string>We need access to VoIP services for incoming calls.</string>
+	<key>UIApplicationSupportsIndirectInputEvents</key>
+	<true/>
+	<key>UIBackgroundModes</key>
+	<array>
+		<string>fetch</string>
+		<string>processing</string>
+		<string>remote-notification</string>
+		<string>voip</string>
+	</array>
+	<key>BGTaskSchedulerPermittedIdentifiers</key>
+    	<array>
+    		<string>close_app</string>
+      </array>
+    <key>NSBluetoothAlwaysUsageDescription</key>
+    <string>Need Bluetooth permission yo use it in chatting</string>
+    <key>NSBluetoothPeripheralUsageDescription</key>
+    <string>Need Bluetooth permission yo use it in chatting</string>
+	<key>UILaunchStoryboardName</key>
+	<string>LaunchScreen</string>
+	<key>UIMainStoryboardFile</key>
+	<string>Main</string>
+	<key>UIRequiresFullScreen</key>
+	<false/>
+	<key>UISupportedInterfaceOrientations</key>
+	<array>
+		<string>UIInterfaceOrientationPortrait</string>
+		<string>UIInterfaceOrientationLandscapeLeft</string>
+		<string>UIInterfaceOrientationLandscapeRight</string>
+	</array>
+	<key>UISupportedInterfaceOrientations~ipad</key>
+	<array>
+		<string>UIInterfaceOrientationPortrait</string>
+		<string>UIInterfaceOrientationPortraitUpsideDown</string>
+		<string>UIInterfaceOrientationLandscapeLeft</string>
+		<string>UIInterfaceOrientationLandscapeRight</string>
+	</array>
+	<key>UIUserInterfaceStyle</key>
+	<string>Light</string>
+	<key>UIUserInterfaceStyle - 2</key>
+	<string>Light</string>
+	<key>UIViewControllerBasedStatusBarAppearance</key>
+	<false/>
+	<key>io.flutter.embedded_views_preview</key>
+	<string>YES</string>
+	<key>NSAppTransportSecurity</key>
+    <dict>
+      <key>NSAllowsArbitraryLoads</key>
+      <true/>
+    </dict>
+</dict>
+</plist>

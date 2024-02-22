@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="36" height="36" viewBox="0 0 36 36">
+    <defs>
+        <filter id="m60i2oo84a">
+            <feColorMatrix in="SourceGraphic" values="0 0 0 0 0.470588 0 0 0 0 0.662745 0 0 0 0 1.000000 0 0 0 1.000000 0"/>
+        </filter>
+    </defs>
+    <g fill="none" fill-rule="evenodd">
+        <g filter="url(#m60i2oo84a)" transform="translate(-22 -872)">
+            <g transform="translate(22 872)">
+                <path d="M0 0H36V36H0z"/>
+                <path fill="#000" fill-rule="nonzero" d="M12 4.5v.75c0 1.243 1.007 2.25 2.25 2.25h7.5C22.993 7.5 24 6.493 24 5.25V4.5h3c1.657 0 3 1.343 3 3v24c0 1.657-1.343 3-3 3H9c-1.657 0-3-1.343-3-3v-24c0-1.657 1.343-3 3-3h3z" opacity=".3"/>
+                <path fill="#000" fill-rule="nonzero" d="M16.5 3c0-.828.672-1.5 1.5-1.5s1.5.672 1.5 1.5h2.25c.414 0 .75.336.75.75v1.5c0 .414-.336.75-.75.75h-7.5c-.414 0-.75-.336-.75-.75v-1.5c0-.414.336-.75.75-.75h2.25z"/>
+                <rect width="7.5" height="3" x="10.5" y="15" fill="#000" fill-rule="nonzero" opacity=".3" rx="1"/>
+                <rect width="13.5" height="3" x="10.5" y="21" fill="#000" fill-rule="nonzero" opacity=".3" rx="1"/>
+            </g>
+        </g>
+    </g>
+</svg>

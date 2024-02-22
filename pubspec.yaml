@@ -1,0 +1,396 @@
+name: starter_application
+description: Launch your new project in the clearest possible way :-).
+
+# The following line prevents the package from being accidentally published to
+# pub.dev using `pub publish`. This is preferred for private packages.
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+
+# Application version
+
+
+#version: 1.0.24+28
+version: 1.0.26+47
+
+
+environment:
+  sdk: '>=3.0.0 <4.0.0'
+dependencies:
+  booking_system_flutter:
+    path: booking_system_flutter
+  flutter:
+    sdk: flutter
+  # A simple widget to display image in a full-screen, swipe it to dismiss, pinch & zoom.
+  insta_image_viewer: ^1.0.2
+  # Flutter Localization is a package use for in-app localization with map data. More easier and faster to implement and inspired by the flutter_localizations itself
+  flutter_localization: ^0.1.14
+  # A Flutter package allows you to easily implement the Credit card's UI easily with the Card detection.
+  flutter_credit_card: ^3.0.7
+  # A composable, multi-platform, Future-based API for HTTP requests.
+  http: ^0.13.6
+  # A customised Flutter TextFormField to input international phone number along with country code.
+  intl_phone_field: ^3.2.0
+  # A Flutter widget that scrolls text infinitely. Provides many customizations including custom scroll directions, durations, curves as well as pauses after every round.
+  marquee: ^2.2.3
+  # Plugin to update the app badge on the launcher (both for Android, iOS and macOS)
+  flutter_app_badger: ^1.5.0
+  # Powerful package to create beautiful custom animations in no time.
+  simple_animations: 4.0.1
+  # Flutter implementation of sticky headers as a sliver. Use it in a CustomScrollView.
+  flutter_sticky_header: ^0.6.5
+  # iOS implementation of the video_player plugin.
+  video_player_avfoundation: ^2.4.9
+  # Provides a collection of Flutter grids layouts (staggered, masonry, quilted, woven, etc.).
+  flutter_staggered_grid_view: ^0.6.2
+  # Flutter widgets implementing the current iOS design language.
+  cupertino_icons: ^1.0.0
+  # Highly customizable modal progress indicator with fade animation.
+  flutter_progress_hud: ^2.0.0
+  # Localization dependency
+  intl: ^0.18.0
+  intl_utils: ^2.8.4
+  cupertino_will_pop_scope: ^1.2.1
+  # State management
+  flutter_bloc: ^8.0.0
+  # A wrapper around InheritedWidget to make them easier to use and more reusable
+
+  # Get Mobile Contacts
+  flutter_contacts: ^1.1.7+1
+  provider: ^6.0.1
+  # Compare objects
+  equatable: ^2.0.3
+  # RX programing
+  rxdart: ^0.27.3
+  # Service locator
+  get_it: ^7.2.0
+  injectable: ^1.5.0
+  # Prints beautiful logs
+  logger: ^1.1.0
+  # Functional programming in Dart
+  dartz: ^0.10.1-nullsafety.1
+  # Shared preferences
+  shared_preferences: ^2.0.9
+  #  Http client for Dart
+  dio: ^5.3.0
+  #Dio-http-cache is a cache library for Dio ( http client for flutter ), like Rxcache in Android.
+  #Dio-http-cache uses sqflite as disk cache
+  dio_cache_interceptor: ^3.4.2
+  #Flexible retry library for Dio package. This is a next generation of an abandoned dio_retry package.
+  dio_smart_retry: ^5.0.0
+  # Pretty Dio logger is a Dio interceptor that logs network calls in a pretty, easy to read format
+  pretty_dio_logger: ^1.2.0-beta-1
+  # adapting match and font size
+  flutter_screenutil: ^5.0.1
+  # Scroll component drop-down refresh
+  pull_to_refresh: ^2.0.0
+  # Launching a URL in the mobile platform. Supports iOS and Android.
+  url_launcher: ^6.0.17
+  # Simple widget wrapper to enable modal progress HUD
+  modal_progress_hud_nsn: ^0.4.0
+  # This Flutter plugin provides an API for querying information about an application package.
+  package_info: ^2.0.2
+  # Get device information
+  device_info: ^2.0.3
+  # Show native toast
+  fluttertoast: ^8.0.8
+  # A Flutter plugin for finding commonly used locations on the filesystem.
+  # Supports iOS, Android, Linux and MacOS. Not all methods are supported on all platforms.
+  path_provider: ^2.0.7
+  # A set of high-level APIs over PointyCastle for two-way cryptography.
+  encrypt: ^5.0.1
+  # Google supported fonts
+  google_fonts:
+  # Code generation for immutable classes with simple syntax
+  freezed_annotation:
+  # Changing them with beautiful and easy way with animations
+  animated_theme_switcher: ^2.0.5
+  # Global error catcher stuff
+  # Sending mails
+  mailer: ^6.0.1
+  flutter_mailer: ^2.0.0
+  # Provides APIs for debugging and error logging
+  logging: ^1.0.2
+  # Rendering lottie animations
+  lottie: ^2.5.0
+  # A set of widgets that can be used to define a readable responsive UI for widgets
+  responsive_builder: ^0.7.0
+  # Determine the type of handheld device on Flutter,  Like if the device is a Tablet or is iPhoneX or later or has notch.
+  flutter_device_type: ^0.4.0
+  # Widget to display dots indicator to show a position (for a PageView for example).
+  dots_indicator: ^3.0.0
+  # Circular and Linear percent indicators
+  percent_indicator: ^4.2.3
+  # For showing snackbars
+  another_flushbar: ^1.12.30
+  # package to draw SVG (and some Android VectorDrawable (XML)) files on a Flutter Widget.
+  flutter_svg: ^2.0.7
+  # A Flutter package that help you create a verification input.
+  flutter_verification_code: ^1.1.0
+  # A draggable Flutter widget that makes implementing a Sliding up and fully-stretchable much easier.
+  draggable_home: ^1.0.2
+  # Flutter package that provides you custom clippers to help you achieve various custom shapes.
+  flutter_custom_clippers: ^2.0.0
+  # Clip your widgets with custom shapes provided.
+  clippy_flutter: ^2.0.0-nullsafety.1
+  # Flutter button roeaction it is fully customizable widget such as Facebook reaction button.
+  flutter_reaction_button: ^2.0.1+2
+  # The official AppBar, with a more colorful twist. Add gradients to spice up your application and make it beautiful.
+  flutter_gradient_app_bar: ^0.3.1
+  # To Pick images/videos from gallery or camera
+  image_picker: ^1.0.1
+  # A package that allows you to use a native file explorer to pick single or multiple absolute file paths, with extension filtering support.
+  file_picker: ^5.3.2
+  # Enable you to requests permissions
+  permission_handler: ^11.0.1
+  # A custom switch widget that can have a custom height and width, borders, border radius, colors, toggle size, custom text and icons inside the toggle.
+  flutter_switch: ^0.3.2
+  # A list with helper methods to programmatically scroll to an item.
+  scrollable_positioned_list: ^0.3.8
+  # Displays widgets in circles
+  circular_widgets: ^3.0.0
+  # A carousel slider widget, support infinite scroll and custom child widget.
+  carousel_slider: ^4.0.0
+  # A highly customizable circular slider/progress bar & spinner for Flutter.
+  sleek_circular_slider: ^2.0.1
+  # Full Quran text and juz, surah, verses, place of revelation details etc.
+  quran: ^1.1.2
+  # More Options in Message Like Delete(Slider)
+  flutter_slidable: ^3.0.0
+  # A package for creating badges. Badges can be used for an additional marker for any widget, e.g. show a number of items in a shopping cart.
+  badges: ^3.1.1
+  # RFlutter Alert is super customizable and easy-to-use alert / popup dialogs for Flutter. You may create reusable alert styles or add buttons as much as you want with ease.
+  rflutter_alert: ^2.0.4
+  # A Flutter plugin that provides a Google Maps widget.
+  google_maps_flutter: ^2.0.6
+  # plugin that decodes encoded google polyline string into list of geo-coordinates
+  flutter_polyline_points: ^1.0.0
+  # provides easy access to platform specific location services
+  geolocator: ^9.0.2
+  # Plugin to easily handle realtime location in iOS and Android
+  location: ^5.0.0
+  # Make animated text
+  animated_text_kit: ^4.2.1
+  # Flutter Qiblah is a package that allows you to display Qiblah direction in you app
+  flutter_qiblah: ^2.0.2
+  # Lightweight library for common latitude and longitude calculation
+  latlong2: ^0.9.0
+  # A do all, highly customizable persistent/static bottom navigation bar for flutter
+  persistent_bottom_nav_bar_v2: ^4.1.3
+  #video_player allow to run video into the app
+  video_player: ^2.7.2
+
+  #Payment moyasar
+  moyasar: ^2.0.2
+
+  #control video
+  chewie: ^1.7.4
+
+  table_calendar: ^3.0.2
+  #to show select icon
+  flutter_iconpicker: ^3.1.2
+  #to show loading widget
+  shimmer: ^3.0.0
+  #this lib cache network images for better user experience
+  cached_network_image: ^3.2.0
+  #that converts a date into a humanized text
+  timeago: ^3.2.2
+  # A Flutter widget rendering static HTML and CSS as Flutter widgets.
+  flutter_html: ^3.0.0-alpha.2
+  #dynamic link
+  firebase_dynamic_links: ^5.3.4
+  #connect ot firebase
+  firebase_core: ^2.15.0
+  #to share pages on other social media
+  flutter_share: ^2.0.0
+  #rate
+  flutter_rating_bar: ^4.0.0
+  #Google sign in
+  google_sign_in: ^6.1.4
+  # Flutter plugin project to pick country code, will show code country, dial code, flag country, and name country.
+  country_list_pick: ^1.0.1+6
+  # Flutter wrapper around the Agora Real Time Message SDKs for Android and iOS.
+  agora_rtm: ^1.5.7
+  agora_uikit: ^1.3.7
+
+  # A progress bar widget to show or change the position of an audio or video stream.
+  audio_video_progress_bar: ^1.0.1
+  # for video chatting
+  agora_rtc_engine: ^6.2.3
+  # Execute code after the first layout of your widget has been performed, i.e. after the first frame has been displayed.
+  after_layout: ^1.1.0
+  #  qr_flutter: ^4.0.0
+  barcode: ^2.2.0
+  barcode_widget: ^2.0.2
+  # pdf
+  pdf: ^3.7.4
+  # screenshot
+  screenshot: ^2.1.0
+  # scanner
+  mobile_scanner: ^3.3.0
+  # flutter sound
+  flutter_sound: ^9.2.13
+  # for saving personality screenshot to gallery
+  image_gallery_saver: ^2.0.3
+  # Format the number into a beautiful, readable and short string
+  numeral: ^2.0.1
+  # to get location info from latlng
+  geocoding: ^2.0.4
+  #save event tickets as pdf in external storage space
+  external_path: ^1.0.1
+  # mute
+  mutex: ^3.0.0
+  # firebase messaging
+  firebase_messaging: ^14.6.5
+  firebase_messaging_platform_interface: ^4.5.4
+  # gallery saver
+  gallery_saver: ^2.3.2
+  # flutter_local_notifications
+  flutter_local_notifications: ^15.1.0+1
+  # video youtube_player_iframe
+  youtube_player_iframe:
+  # just audio A feature-rich audio player for Flutter. Loop, clip and concatenate any sound from any source (asset/file/URL/stream) in a variety of audio formats with gapless playback.#audio#sound#player#background
+  just_audio: ^0.9.28
+  # webview flutter
+  webview_flutter: ^4.2.0
+  # Forward and reverse geocoding is Easy Now.
+  geocoder2: ^1.4.0
+  # firebase_auth login
+  firebase_auth: ^4.7.1
+  # notification Permissions
+  notification_permissions: ^0.6.1
+  # animate icons
+  animate_icons: ^2.0.0
+  # photo view
+  photo_view: ^0.14.0
+  # dotted border
+  dotted_border: ^2.0.0+3
+  # scan
+  scan: ^1.6.0
+  # Wrapper for HealthKit on iOS and Google Fit and Health Connect on Android.
+  health: ^7.0.1
+  # Flutter plugin that allows you to check if an app is installed/enabled, launch an app and get the list of installed apps.
+  appcheck: ^1.0.6
+  # Simple and robust Searchable Dropdown with item search feature, making it possible to use an offline item list or filtering URL for easy customization.
+  dropdown_search: ^3.0.1
+  # Flutter plugin providing detailed information about the device (make, model, etc.), and Android or iOS version the app is running on.
+  device_info_plus: ^9.0.2
+  # Flutter Analog Clock plugin.
+  analog_clock: ^0.1.1
+  # NumberPicker is a widget allowing user to choose numbers by scrolling spinners.
+  numberpicker: ^2.1.2
+  # A Beautiful and Simple Radio Group widget for Flutter. It can be fully customized with label, titles, labelStyle, titleStyle, orientation, etc. It also maintains onChanged state.
+  flutter_radio_group: ^2.1.0
+  # A flutter package to allow drag-and-drop reordering of two-level lists.
+  drag_and_drop_lists: ^0.3.3
+  # Flutter plugin for discovering the state of the network (WiFi & mobile/cellular) connectivity on Android and iOS.
+  connectivity_plus: ^3.0.6
+  # share any thing
+  share_plus: ^7.0.2
+  # open link in text
+  flutter_linkify: ^6.0.0
+  # lib markting
+  appsflyer_sdk: ^6.9.3
+  awesome_notifications:
+  devicelocale: ^0.7.0
+  nb_utils: ^5.0.8
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  xml: ^6.3.0
+  flutter_dialogs:
+  #  pay: ^1.1.2
+  # A build system for Dart code generation and modular compilation
+  build_runner:
+  # Dependency injection code generator
+  injectable_generator:
+  # Freezed package code generator
+  freezed:
+  # Used in freezed package
+  json_serializable:
+  # For more health code
+  linter:
+  # Change native code splash
+  flutter_native_splash:
+  # Change App Package Name 
+  change_app_package_name: ^1.0.0
+  # cut images
+  image_cropper: ^4.0.1
+  # handle call_log:
+  flutter_callkit_incoming: ^2.0.0+2
+  pip_view: ^0.9.7
+  flutter_blue_plus: ^1.20.7
+  zoom_widget: ^2.0.1
+  flutter_background_service: ^5.0.1
+  flutter_secure_storage: ^9.0.0
+flutter_icons:
+  android: true
+  ios: true
+  image_path: "assets/images/png/launcher_icon.png"
+  remove_alpha_ios: true
+
+#dependency_overrides:
+#  # Dependency injection code generator
+#  injectable_generator: ^1.5.2
+#  # Freezed package code generator
+#  freezed: ^1.0.2
+#  # Used in freezed package
+#  json_serializable: ^6.1.1
+
+
+flutter:
+  uses-material-design: true
+
+  # To add assets to your application, add an assets section, like this:
+  assets:
+    - assets/images/png/
+    - assets/images/png/feelings/
+    - assets/images/svg/
+    - assets/images/png/error/
+    - assets/anim/lottie/
+    - assets/anim/lottie/error/
+    - assets/images/svg/dream_icons/
+    - assets/images/svg/icon/
+    - assets/anim/
+    - assets/
+    - assets/fonts/
+    - assets/images/
+    - assets/icons/
+    - assets/images/png/temp/
+    - booking_system_flutter/assets/icons/
+    - booking_system_flutter/assets/
+    - booking_system_flutter/assets/flag/
+    - booking_system_flutter/assets/images/
+    - booking_system_flutter/assets/lottie/
+  fonts:
+    - family: me_quran_regular
+      fonts:
+        - asset: assets/fonts/me_quran_regular.ttf
+    - family: Tajawal
+      fonts:
+        - asset: assets/fonts/Tajawal-Regular.ttf
+    - family: Tajawal
+      fonts:
+        - asset: assets/fonts/Tajawal-Bold.ttf
+    - family: Tajawal
+      fonts:
+        - asset: assets/fonts/Tajawal-Light.ttf
+    - family: Tajawal
+      fonts:
+        - asset: assets/fonts/Tajawal-Medium.ttf
+    - family: geeza_pro_bold
+      fonts:
+        - asset: assets/fonts/geeza_pro_bold.ttf
+    - family: geeza_pro_regular
+      fonts:
+        - asset: assets/fonts/geeza_pro_regular.ttf
+    - family: SFProDisplay-Regular
+      fonts:
+        - asset: assets/fonts/SFProDisplay-Regular.ttf
+    - family: Inter-Regular
+      fonts:
+        - asset: assets/fonts/Inter-Regular.ttf
+
+# Enable intl translation and make name of it [Translation]
+flutter_intl:
+  enabled: true
+  class_name: Translation

@@ -1,0 +1,11 @@
+<svg width="32" height="32" viewBox="0 0 32 32" xmlns="http://www.w3.org/2000/svg">
+    <defs>
+        <filter id="zwtocaccza">
+            <feColorMatrix in="SourceGraphic" values="0 0 0 0 0.729412 0 0 0 0 0.731503 0 0 0 0 0.760784 0 0 0 1.000000 0"/>
+        </filter>
+    </defs>
+    <g transform="translate(-29 -569)" filter="url(#zwtocaccza)" fill="none" fill-rule="evenodd">
+        <path d="M29 569h32v32H29z"/>
+        <path d="M55.667 593h-16a1.333 1.333 0 0 0 0 2.667h16V597c0 .836-.478 1.333-1.334 1.333h-16c-2.328 0-4-1.74-4-4v-18.666c0-2.26 1.672-4 4-4h16c.856 0 1.334.497 1.334 1.333v20z" fill="#000" fill-rule="nonzero"/>
+    </g>
+</svg>

@@ -1,0 +1,24 @@
+linter:
+  rules:
+    - parameter_assignments
+    - close_sinks
+    - unrelated_type_equality_checks
+    - cancel_subscriptions
+    - valid_regexps
+    - avoid_empty_else
+    - prefer_const_constructors
+
+analyzer:
+  # Ignore lint warnings on generated files
+  exclude:
+    - "**/*.g.dart"
+    - "**/*.freezed.dart"
+  errors:
+    missing_required_param: error
+    close_sinks: error
+    unrelated_type_equality_checks: error
+    cancel_subscriptions: error
+    valid_regexps: error
+    avoid_empty_else: error
+    parameter_assignments: info
+    prefer_const_constructors: info

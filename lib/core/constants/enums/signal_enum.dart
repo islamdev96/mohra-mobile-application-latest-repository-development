@@ -1,0 +1,1 @@
+enum SignalType { MESSAGE, GROUP_CREATED, LIVE_LOCATION }

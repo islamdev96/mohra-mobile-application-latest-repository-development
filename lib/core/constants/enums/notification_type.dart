@@ -1,0 +1,20 @@
+enum NotificationType {
+  Order,
+  FriendRequest,
+  ChatConversation,
+  ChatGroup,
+  Product,
+  Shop,
+  Ticket,
+  Event,
+  Offer,
+  News,
+  Other,
+  CallConversation,
+  CallGroup,
+  Comment,
+  Like,
+  Tag,
+  ApproveFriendRequest,
+  call
+}
